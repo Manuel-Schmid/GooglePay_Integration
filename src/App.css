@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+hr {
+  margin-bottom: 2vh;
+}
+
 .App-logo {
   position: absolute;
   left: 18px;

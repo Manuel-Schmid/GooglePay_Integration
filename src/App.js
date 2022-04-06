@@ -29,6 +29,21 @@ function App() {
                 },
               },
             },
+            // {
+            //   type: 'PAYPAL',
+            //   parameters: {
+            //     'purchase_context': {
+            //       'purchase_units': [{
+            //         'payee': {
+            //           'merchant_id': 'PAYPAL_ACCOUNT_ID'
+            //         }
+            //       } ]
+            //     }
+            //   },
+            //   tokenizationSpecification: {
+            //     type: 'DIRECT'
+            //   }
+            //  }
           ],
           merchantInfo: {
             merchantId: '12345678901234567890',
@@ -37,7 +52,7 @@ function App() {
           transactionInfo: {
             totalPriceStatus: 'FINAL',
             totalPriceLabel: 'Total',
-            totalPrice: '1',
+            totalPrice: '5',
             currencyCode: 'USD',
             countryCode: 'US',
           },
@@ -62,7 +77,6 @@ function App() {
         buttonType='Buy'
       />
     </div>
-    
   );
 }
 
